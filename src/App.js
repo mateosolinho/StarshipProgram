@@ -5,25 +5,8 @@ import Extraction from './pages/Extraction';
 import Visualization from './pages/Visualization';
 
 const App = () => {
-  const dataConfigs = [
-  {
-    timeIndex: 0,
-    valueIndexes: [2, 14, 26, 38, 50],
-    labels: ['Velocidad IFT-1 (km/h)', 'Velocidad IFT-2 (km/h)', 'Velocidad IFT-3 (km/h)', 'Velocidad IFT-4 (km/h)', 'Velocidad IFT-5 (km/h)'],
-    lineColors: ['#82ca9d', '#ff7300', '#ff1200', '#ff3450', '#ff8980'],
-    chartTitle: 'Gráfico de Velocidad (km/h) IFT-1 - IFT-5',
-  },
-  {
-    timeIndex: 0,
-    valueIndexes: [6, 18, 30, 42, 54],
-    labels: ['Altura IFT-1 (m)', 'Altura IFT-2 (m)', 'Altura IFT-3 (m)', 'Altura IFT-4 (m)', 'Altura IFT-5 (m)'],
-    lineColors: ['#82ca9d', '#ff7300', '#ff1200', '#ff3450', '#ff8980'],
-    chartTitle: 'Gráfico de Altura IFT-1 - IFT-5',
-  },
-  // Puedes agregar más configuraciones aquí
-];
 
-return (
+  return (
     <Router>
       <div 
         className="bg-black text-white min-h-screen flex flex-col items-center relative" 
@@ -51,7 +34,7 @@ return (
           <Routes>
             <Route path="/mission" element={<Mission />} />
             <Route path="/extraction" element={<Extraction />} />
-            <Route path="/visualization" element={<Visualization configs={dataConfigs} />} />
+            <Route path="/visualization" element={<Visualization/>} />
             <Route path="/" element={
               <header className="flex-grow flex flex-col justify-center items-center text-center px-10">
                 <h1 className="text-5xl font-bold mb-4">Bienvenido al Starship Program</h1>
