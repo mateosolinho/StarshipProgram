@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/starshipprogram/static/css/main.4bb3b20b.css",
-    "main.js": "/starshipprogram/static/js/main.9bbd096f.js",
-    "static/js/453.86e7ba36.chunk.js": "/starshipprogram/static/js/453.86e7ba36.chunk.js",
-    "static/media/slick.svg": "/starshipprogram/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/starshipprogram/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/starshipprogram/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/starshipprogram/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/starshipprogram/index.html",
-    "main.4bb3b20b.css.map": "/starshipprogram/static/css/main.4bb3b20b.css.map",
-    "main.9bbd096f.js.map": "/starshipprogram/static/js/main.9bbd096f.js.map",
-    "453.86e7ba36.chunk.js.map": "/starshipprogram/static/js/453.86e7ba36.chunk.js.map"
+    "main.css": "/StarshipProgram/static/css/main.38c3406a.css",
+    "main.js": "/StarshipProgram/static/js/main.e72d455e.js",
+    "static/js/453.86e7ba36.chunk.js": "/StarshipProgram/static/js/453.86e7ba36.chunk.js",
+    "static/media/slick.svg": "/StarshipProgram/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/StarshipProgram/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/StarshipProgram/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/StarshipProgram/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/StarshipProgram/index.html",
+    "main.38c3406a.css.map": "/StarshipProgram/static/css/main.38c3406a.css.map",
+    "main.e72d455e.js.map": "/StarshipProgram/static/js/main.e72d455e.js.map",
+    "453.86e7ba36.chunk.js.map": "/StarshipProgram/static/js/453.86e7ba36.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4bb3b20b.css",
-    "static/js/main.9bbd096f.js"
+    "static/css/main.38c3406a.css",
+    "static/js/main.e72d455e.js"
   ]
 }
