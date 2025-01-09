@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# Starship Program Telemetry Viewer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web application built with React for real-time visualization of telemetry data extracted from Starship flights, this platform provides an interactive and user-friendly interface to display key metrics about launches.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Real telemetry**: Visualize speed, altitude, and other metrics of all the Starship launchs.  
+- **Dynamic visualizations**: Graphs and visual components that update as new data is received.  
+- **Intuitive UI**: Easy-to-use layout for both enthusiasts and professionals.  
+- **Integration with APIs**: Built to retrieve live data from telemetry APIs.  
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend**: React, JavaScript, CSS, HTML
+- **Charting library**: Recharts 
+- **Data fetching**: COMING SOON 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/mateosolinho/starshipprogram.git
+   cd starshipprogram
+   ```
+2. Install dependencies:
+   ```bash
+   npm install (UC)
+   ```
+3. Start the development server:
+   ```bash
+   npm start
+   ```
+4. Open your browser at `http://localhost:3000`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `npm run build`
+1. Launch the application.  
+2. Enter the API endpoint (COMING SOON) or load a predefined data source.  
+3. Monitor telemetry updates and explore various visualizations.  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## API Integration (COMING SOON)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Dashboard](screenshot1.png)
 
-### `npm run eject`
+![Graph View](screenshot2.png)  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Deployment
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To deploy the application:  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Build the project:  
+   ```bash
+   npm run build
+   ```  
+2. Deploy the `build` folder to a hosting service like Vercel, Netlify, or any static hosting platform.  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contribution
 
-## Learn More
+Contributions are welcome! Follow these steps to contribute:  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Fork the repository.  
+2. Create a feature branch:  
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```  
+3. Commit changes:  
+   ```bash
+   git commit -m "Add your message here"
+   ```  
+4. Push to the branch:  
+   ```bash
+   git push origin feature/your-feature-name
+   ```  
+5. Open a pull request.
