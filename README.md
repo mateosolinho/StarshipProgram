@@ -1,5 +1,7 @@
 # Starship Program Telemetry Viewer
 
+![Dashboard](https://github.com/mateosolinho/StarshipProgram/blob/main/public/assets/2.png)
+
 A web application built with React for real-time visualization of telemetry data extracted from Starship flights, this platform provides an interactive and user-friendly interface to display key metrics about launches.
 
 ## Features
@@ -42,7 +44,6 @@ A web application built with React for real-time visualization of telemetry data
 
 ## Screenshots
 
-![Dashboard](https://github.com/mateosolinho/StarshipProgram/blob/main/public/assets/2.png)
 
 ![Dashboard](https://github.com/mateosolinho/StarshipProgram/blob/main/public/assets/3.png)
 
