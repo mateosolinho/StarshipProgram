@@ -42,9 +42,11 @@ A web application built with React for real-time visualization of telemetry data
 
 ## Screenshots
 
-![Dashboard](screenshot1.png)
+![Dashboard](https://github.com/mateosolinho/StarshipProgram/blob/main/public/assets/2.png)
 
-![Graph View](screenshot2.png)  
+![Dashboard](https://github.com/mateosolinho/StarshipProgram/blob/main/public/assets/3.png)
+
+![Dashboard](https://github.com/mateosolinho/StarshipProgram/blob/main/public/assets/1.png)
 
 ## Deployment
 
