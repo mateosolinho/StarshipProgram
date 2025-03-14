@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "homepage": "https://mateosolinho.github.io/starshipprogram",
+=======
+  "homepage": "https://mateosolinho.github.io/StarshipProgram",
+>>>>>>> 3c2dc00b6238cd586665a38308b148533f061269
   "name": "starship-program",
   "version": "0.1.0",
   "private": true,
